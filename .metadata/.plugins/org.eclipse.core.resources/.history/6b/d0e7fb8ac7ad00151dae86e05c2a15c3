@@ -1,0 +1,18 @@
+package com.seongminpark;
+
+/**
+ * Introduction to integers, strings, booleans, and lists.
+ * Contains declaration and manipulation of variables.
+ * @author seongmin
+ *
+ */
+public class Variables {
+	
+	/**
+	 * Main main main main main main.
+	 * @param args Command line args.
+	 */
+	public static void main(String args[]) {
+		
+	}
+}

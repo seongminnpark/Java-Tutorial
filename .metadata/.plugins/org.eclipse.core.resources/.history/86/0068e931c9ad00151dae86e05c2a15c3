@@ -1,0 +1,24 @@
+package com.seongminpark;
+
+/**
+ * Introduction to integer, float, double, string, and boolean.
+ * Contains declaration and manipulation of variables.
+ * @author seongmin
+ *
+ */
+public class Variables {
+	
+	/**
+	 * Main main main main main main.
+	 * @param args Command line args.
+	 */
+	public static void main(String args[]) {
+		// A variable is a name we give a certain value.
+		
+		// There are three kinds of numbers:
+		int six_int = 6;
+		float six_float = 
+		
+		
+	}
+}

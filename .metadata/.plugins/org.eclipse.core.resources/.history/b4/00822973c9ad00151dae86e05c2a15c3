@@ -1,0 +1,31 @@
+package com.seongminpark;
+
+/**
+ * Introduction to integer, float, double, string, and boolean.
+ * Contains declaration and manipulation of variables.
+ * @author seongmin
+ *
+ */
+public class Variables {
+	
+	/**
+	 * Main main main main main main.
+	 * @param args Command line args.
+	 */
+	public static void main(String args[]) {
+		// A variable is a name we give a certain value.
+		// On the next line we will ASSIGN a VALUE of 0 to the 
+		
+		
+		// As you'll notice a variable consists of two parts: name and value.
+		//         (Since the value is being written in your ram it is much more complicated in reality, 
+		//         but let's not concern ourselves with that yet.)
+		// Declaring a variable, then, means writing out its name and value and placing an equals sign(=) inbetween.
+		
+		// There are three kinds of numbers:
+		int six_int = 6;
+		float six_float = 
+		
+		
+	}
+}
