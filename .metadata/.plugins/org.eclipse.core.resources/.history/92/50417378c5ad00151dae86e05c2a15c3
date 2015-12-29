@@ -1,0 +1,10 @@
+package com.seongminpark;
+
+/**
+ * Contains declaration and manipulation of variables.
+ * @author seongmin
+ *
+ */
+public class Variables {
+
+}

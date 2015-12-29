@@ -1,0 +1,10 @@
+package com.seongminpark;
+
+/**
+ * Contains examples declaring variables 
+ * @author seongmin
+ *
+ */
+public class Variables {
+
+}

@@ -1,0 +1,19 @@
+package main;
+
+/**
+ * Main!!
+ * @author seongmin
+ *
+ */
+public class Main {
+
+	public static void main(String[] args) {
+		// The normal way:
+		System.out.println("Hello World");
+		
+		// The 
+		System.out.print("Hello World\n");
+		String 
+	}
+
+}

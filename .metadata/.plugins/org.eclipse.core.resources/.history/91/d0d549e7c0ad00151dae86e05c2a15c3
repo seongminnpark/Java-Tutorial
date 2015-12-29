@@ -1,0 +1,21 @@
+package main;
+
+/**
+ * Main!!
+ * @author seongmin
+ *
+ */
+public class Main {
+
+	public static void main(String[] args) {
+		// The normal way:
+		System.out.println("Hello World");
+
+		// The inappropriate way:
+		System.out.print("Hello World\n");
+	
+		// And just for thesake of it:
+		System.out.println();
+	}
+
+}
