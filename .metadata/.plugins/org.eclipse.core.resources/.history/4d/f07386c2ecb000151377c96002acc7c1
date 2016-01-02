@@ -1,0 +1,57 @@
+package com.seongminpark;
+
+/**
+ * Introduction to integer, float, double, string, and boolean.
+ * Contains declaration and manipulation of variables.
+ * @author seongmin
+ *
+ */
+public class Variables {
+	
+	/**
+	 * Main main main main main main.
+	 * @param args Command line args.
+	 */
+	public static void main(String args[]) {
+		/* A variable is a placeholder of a value.
+		   On the next line we will ASSIGN a VALUE of 0 to the variable named v. */
+		int v = 0;
+		
+		/* As you'll notice a variable consists of three parts: type, name and value.
+		   In the example above, v's type is integer, its name is 'v', and its value is 0.
+		   Declaring a variable, then, means writing out the three components. We also add an equals sign(=) to show it's an assignment. 
+		   
+		   Why would we want variables? 
+		   
+		   Say we want to print out the same number multiple times: */
+		
+		int ourNumber = 989288478;
+		
+		String toPrint = String.format("Our special number is: %d. Again, our special number is: %d. Adding one to %d, we get %d.",
+				ourNumber, ourNumber, ourNumber, ourNumber+1);
+		System.out.println(toPrint);
+		
+		/* Passing(we call it *passing* a variable) our number to the string format function using a variable yielded these advantages:
+		 * 
+		   1. Imagine typing 989288478 directly into the string, 4 times. There is much room for mistake if we retype every single time.
+		      Values will get much, much more complicated as we progress.
+		      
+		   2. Since our special number is declared only once in the code, we only have to change that single line to effect every line in which the variable is mentioned.
+		   
+		   -> The two advantages above can be overlooked if you are an obsessively meticulous person. But the third one can't:
+		   
+		   3. 
+		   
+		 */
+		
+		
+	
+		
+		
+		/* There are three kinds of numbers: */
+		int sixInt = 6;
+		float sixFloat = 6;
+		double sixDouble = 6; 
+		
+	}
+}

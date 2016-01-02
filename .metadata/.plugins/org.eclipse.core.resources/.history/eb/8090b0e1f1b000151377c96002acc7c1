@@ -1,0 +1,88 @@
+package com.seongminpark;
+
+/**
+ * Introduction to integer, float, double, string, and boolean.
+ * Contains declaration and manipulation of variables.
+ * @author seongmin
+ *
+ */
+public class Variables {
+	
+	/**
+	 * Main main main main main main.
+	 * @param args Command line args.
+	 */
+	public static void main(String args[]) {
+		/* A variable is a placeholder of a value.
+		   On the next line we will ASSIGN a VALUE of 0 to the variable named v. */
+		int v = 0;
+		
+		/* As you'll notice a variable consists of three parts: type, name and value.
+		   In the example above, v's type is integer, its name is 'v', and its value is 0.
+		   Declaring a variable, then, means writing out the three components. We also add an equals sign(=) to show it's an assignment. 
+		   
+		   Why would we want variables? 
+		   
+		   Say we want to print out the same number multiple times: */
+		
+		int ourNumber = 989288478;
+		
+		String toPrint = String.format("Our special number is: %d. Again, our special number is: %d. Adding one to %d, we get %d.",
+				ourNumber, ourNumber, ourNumber, ourNumber+1);
+		System.out.println(toPrint);
+		
+		/* Passing(we call it *passing* a variable) our number to the string format function using a variable yielded these advantages:
+		 * 
+		   1. Imagine typing 989288478 directly into the string, 4 times. There is much room for mistake if we retype every single time.
+		      Values will get much, much more complicated as we progress.
+		      
+		   2. Since our special number is declared only once in the code, we only have to change that single line to effect every line in which the variable is mentioned.
+		   
+		   -> The two advantages above can be overlooked if you are an obsessively meticulous person. But the third one can't:
+		   
+		   3. We may not know the value we need to print as we are writing the program.
+		      For example, we might want to ask the user to input a number. Or we might want to perform specific operations to the value before 
+              printing it out, like in the 4th print in the example code. 
+              Using variables ensure the data we need to place at certain places in code are indeed there.
+              Take that you overly thorough attention-to-detail variable hater.		   */
+		
+		/* After you assign a value to a variable, its value will not change until the next time you use the assignment operator(=) on it. */
+		int iAmTwo = 2;
+		System.out.format("Initial iAmTwo: %d%n",iAmTwo); // Yes there is a sysout format function! Checking iAmTwo is still two.
+		int iAmThree = iAmTwo + 1; // <- 2 + 1, essentially.
+		System.out.format("Initial iAmThree: %d%n", iAmThree);
+		// Did iAmTwoChange?
+		System.out.format("Did iAmTwo change? iAmTwo: %d%n",iAmTwo);
+		// Taking part in an expression does not change the value of a variable.
+		// (unless of course that expression involves the assignment operator, =. )
+		iAmTwo = 22;
+		System.out.format("Now did iAmTwo change? iAmTwo: %d%n",iAmTwo);
+		
+		/* We've covered basics of declaring variables and what they are used for. 
+		   Now onto something a bit more complicated - Differing use cases call for different types of variables. */
+
+		/* There are three kinds of numbers: */
+		int sixInt = 6;
+		float sixFloat = 6;
+		double sixDouble = 6; 
+		
+		/* A character is a single letter, declared with a single quote. */
+		char a = 'a';
+		char b = 'b'; 
+		// A side note: a character occupies a byte in memory. 
+		// This is why folder phones back in the day displayed how many "bytes" out of our maximum quota 
+		// were alloted when we wrote text messages.
+		
+		/* The String type is just a collection of characters.*/
+		String helloWorld = "Hello World!";
+		System.out.println(helloWorld);
+		
+		/* Note whitespaces count as part of the string. We can also place escape characters. 
+		   Escape characters appear as if they are part of a string, but are shown with special effects 
+		   when they are printed on the console.*/
+		String excapeCharacters = "A\bB\nC\n";
+		System.out.println(excapeCharacters);
+		
+		
+	}
+}
